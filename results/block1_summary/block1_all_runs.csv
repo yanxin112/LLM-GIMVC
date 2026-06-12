@@ -1,0 +1,6 @@
+dataset,missing_pattern,missing_rate,method,seed,NMI,ARI,ACC,Purity,metrics_path,debug_only
+BDGP,mcar,50,llm_gimvc,0,0.5089965687934189,0.36969369689792514,0.6768,0.6768,results/block1/BDGP/mcar/missing_50/llm_gimvc/seed_0/metrics.json,False
+BDGP,mcar,50,statistical_only,0,0.5050168416450073,0.3640615866247471,0.6712,0.6712,results/block1/BDGP/mcar/missing_50/statistical_only/seed_0/metrics.json,False
+BDGP,mcar,50,mica,0,0.0023803219493969364,0.00029943590030746695,0.2192,0.2212,results/block1/BDGP/mcar/missing_50/mica/seed_0/metrics.json,False
+BDGP,mcar,50,jga_imvc,0,0.001311241043260222,-0.0005453244033161539,0.2156,0.2192,results/block1/BDGP/mcar/missing_50/jga_imvc/seed_0/metrics.json,False
+BDGP,mcar,50,freecsl,0,0.0023038980013712637,0.00023818846941749586,0.2204,0.2208,results/block1/BDGP/mcar/missing_50/freecsl/seed_0/metrics.json,False

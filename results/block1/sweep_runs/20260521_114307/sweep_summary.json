@@ -1,0 +1,77 @@
+{
+  "stage": "stage5a_block1_sweep",
+  "datasets": [
+    "BDGP"
+  ],
+  "missing_rates": [
+    50
+  ],
+  "methods": [
+    "llm_gimvc",
+    "statistical_only",
+    "mica",
+    "jga_imvc",
+    "freecsl"
+  ],
+  "seeds": [
+    0
+  ],
+  "num_jobs": 5,
+  "num_success": 0,
+  "num_failed": 0,
+  "num_skipped": 5,
+  "jobs": [
+    {
+      "dataset": "BDGP",
+      "missing_rate": 50,
+      "missing_rate_fraction": 0.5,
+      "method": "llm_gimvc",
+      "seed": 0,
+      "returncode": 0,
+      "ok": true,
+      "metrics_path": "results/block1/BDGP/mcar/missing_50/llm_gimvc/seed_0/metrics.json"
+    },
+    {
+      "dataset": "BDGP",
+      "missing_rate": 50,
+      "missing_rate_fraction": 0.5,
+      "method": "statistical_only",
+      "seed": 0,
+      "returncode": 0,
+      "ok": true,
+      "metrics_path": "results/block1/BDGP/mcar/missing_50/statistical_only/seed_0/metrics.json"
+    },
+    {
+      "dataset": "BDGP",
+      "missing_rate": 50,
+      "missing_rate_fraction": 0.5,
+      "method": "mica",
+      "seed": 0,
+      "returncode": 0,
+      "ok": true,
+      "metrics_path": "results/block1/BDGP/mcar/missing_50/mica/seed_0/metrics.json"
+    },
+    {
+      "dataset": "BDGP",
+      "missing_rate": 50,
+      "missing_rate_fraction": 0.5,
+      "method": "jga_imvc",
+      "seed": 0,
+      "returncode": 0,
+      "ok": true,
+      "metrics_path": "results/block1/BDGP/mcar/missing_50/jga_imvc/seed_0/metrics.json"
+    },
+    {
+      "dataset": "BDGP",
+      "missing_rate": 50,
+      "missing_rate_fraction": 0.5,
+      "method": "freecsl",
+      "seed": 0,
+      "returncode": 0,
+      "ok": true,
+      "metrics_path": "results/block1/BDGP/mcar/missing_50/freecsl/seed_0/metrics.json"
+    }
+  ],
+  "failed_jobs": [],
+  "dry_run": true
+}

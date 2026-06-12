@@ -1,0 +1,8 @@
+{
+  "method": "jga_imvc",
+  "status": "failed",
+  "error": "Official implementation missing for JGA-IMVC. Place the official repository locally and set JGA_IMVC_OFFICIAL_COMMAND to its training/inference command template. Random-label fallback is disabled.",
+  "source_data": "D:/github_file/LLM-GIMVC/LLM-GIMVC/results/baseline_data/BDGP/mcar/missing_50/seed_0/data.npz",
+  "training_data": "D:/github_file/LLM-GIMVC/LLM-GIMVC/results/block1/BDGP/mcar/missing_50/jga_imvc/seed_0/raw/training_data_no_labels.npz",
+  "labels_passed_to_training": false
+}

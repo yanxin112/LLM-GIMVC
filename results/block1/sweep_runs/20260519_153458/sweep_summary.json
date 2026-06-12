@@ -1,0 +1,83 @@
+{
+  "stage": "stage5a_block1_sweep",
+  "datasets": [
+    "BDGP"
+  ],
+  "missing_rates": [
+    50
+  ],
+  "methods": [
+    "mica",
+    "jga_imvc",
+    "freecsl"
+  ],
+  "seeds": [
+    0
+  ],
+  "num_jobs": 3,
+  "num_success": 0,
+  "num_failed": 3,
+  "num_skipped": 0,
+  "jobs": [
+    {
+      "dataset": "BDGP",
+      "missing_rate": 50,
+      "missing_rate_fraction": 0.5,
+      "method": "mica",
+      "seed": 0,
+      "returncode": 1,
+      "ok": false,
+      "metrics_path": "results/block1/BDGP/mcar/missing_50/mica/seed_0/metrics.json"
+    },
+    {
+      "dataset": "BDGP",
+      "missing_rate": 50,
+      "missing_rate_fraction": 0.5,
+      "method": "jga_imvc",
+      "seed": 0,
+      "returncode": 1,
+      "ok": false,
+      "metrics_path": "results/block1/BDGP/mcar/missing_50/jga_imvc/seed_0/metrics.json"
+    },
+    {
+      "dataset": "BDGP",
+      "missing_rate": 50,
+      "missing_rate_fraction": 0.5,
+      "method": "freecsl",
+      "seed": 0,
+      "returncode": 1,
+      "ok": false,
+      "metrics_path": "results/block1/BDGP/mcar/missing_50/freecsl/seed_0/metrics.json"
+    }
+  ],
+  "failed_jobs": [
+    {
+      "dataset": "BDGP",
+      "missing_rate": 50,
+      "missing_rate_fraction": 0.5,
+      "method": "mica",
+      "seed": 0,
+      "returncode": 1,
+      "stderr_tail": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"D:\\github_file\\IMVC-CGP-main\\llm_gimvc\\experiments\\block1.py\", line 397, in <module>\n    main()\n  File \"D:\\github_file\\IMVC-CGP-main\\llm_gimvc\\experiments\\block1.py\", line 340, in main\n    raise RuntimeError(f\"External baseline command failed. See command_log.json in {job_dir.as_posix()}\")\nRuntimeError: External baseline command failed. See command_log.json in results/block1/BDGP/mcar/missing_50/mica/seed_0\n"
+    },
+    {
+      "dataset": "BDGP",
+      "missing_rate": 50,
+      "missing_rate_fraction": 0.5,
+      "method": "jga_imvc",
+      "seed": 0,
+      "returncode": 1,
+      "stderr_tail": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"D:\\github_file\\IMVC-CGP-main\\llm_gimvc\\experiments\\block1.py\", line 397, in <module>\n    main()\n  File \"D:\\github_file\\IMVC-CGP-main\\llm_gimvc\\experiments\\block1.py\", line 340, in main\n    raise RuntimeError(f\"External baseline command failed. See command_log.json in {job_dir.as_posix()}\")\nRuntimeError: External baseline command failed. See command_log.json in results/block1/BDGP/mcar/missing_50/jga_imvc/seed_0\n"
+    },
+    {
+      "dataset": "BDGP",
+      "missing_rate": 50,
+      "missing_rate_fraction": 0.5,
+      "method": "freecsl",
+      "seed": 0,
+      "returncode": 1,
+      "stderr_tail": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"D:\\github_file\\IMVC-CGP-main\\llm_gimvc\\experiments\\block1.py\", line 397, in <module>\n    main()\n  File \"D:\\github_file\\IMVC-CGP-main\\llm_gimvc\\experiments\\block1.py\", line 340, in main\n    raise RuntimeError(f\"External baseline command failed. See command_log.json in {job_dir.as_posix()}\")\nRuntimeError: External baseline command failed. See command_log.json in results/block1/BDGP/mcar/missing_50/freecsl/seed_0\n"
+    }
+  ],
+  "dry_run": false
+}

@@ -1,0 +1,10 @@
+{
+  "stage": "stage5b_external_baseline",
+  "method": "mica",
+  "cmd": "D:\\Applications\\Anaconda\\python.exe run_mica.py --data D:/github_file/LLM-GIMVC/LLM-GIMVC/results/baseline_data/BDGP/mcar/missing_50/seed_0/data.npz --output D:/github_file/LLM-GIMVC/LLM-GIMVC/results/block1/BDGP/mcar/missing_50/mica/seed_0/raw --dataset BDGP --missing-rate 0.5 --seed 0",
+  "cwd": "external_baselines/MICA",
+  "returncode": 1,
+  "ok": false,
+  "stdout_tail": "",
+  "stderr_tail": "Traceback (most recent call last):\n  File \"D:\\github_file\\LLM-GIMVC\\LLM-GIMVC\\external_baselines\\MICA\\run_mica.py\", line 10, in <module>\n    run_official_wrapper(\"mica\", \"MICA\")\n  File \"D:\\github_file\\LLM-GIMVC\\LLM-GIMVC\\external_baselines\\official_wrapper.py\", line 144, in run_official_wrapper\n    raise RuntimeError(message)\nRuntimeError: Official implementation missing for MICA. Place the official repository locally and set MICA_OFFICIAL_COMMAND to its training/inference command template. Random-label fallback is disabled.\n"
+}

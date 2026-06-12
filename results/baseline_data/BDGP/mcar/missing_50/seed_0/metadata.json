@@ -1,0 +1,22 @@
+{
+  "schema_version": "stage5b_baseline_data_v2",
+  "dataset": "BDGP",
+  "missing_pattern": "MCAR",
+  "missing_rate": 50,
+  "missing_rate_fraction": 0.5,
+  "seed": 0,
+  "num_samples": 2500,
+  "num_views": 2,
+  "num_clusters": 5,
+  "view_dims": [
+    1750,
+    79
+  ],
+  "label_usage": "labels are included only for post-hoc evaluation and must not be passed to external baseline training or inference",
+  "files": {
+    "npz": "data.npz",
+    "mat": null
+  },
+  "mat_exported": false,
+  "mat_export_error": "numpy.core.multiarray failed to import"
+}

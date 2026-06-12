@@ -1,0 +1,9 @@
+{
+  "stage": "stage5b_external_baseline_bridge",
+  "method": "freecsl",
+  "cmd": "D:\\Applications\\Anaconda\\python.exe run_external_baseline.py --method freecsl --dataset BDGP --missing-rate 50 --missing-pattern MCAR --seed 0 --output-dir results/block1 --data-root results/baseline_data --raw-output-root results/external_baselines --repo-root external_baselines --export-format npz --device cpu --force",
+  "returncode": 1,
+  "stdout_tail": "============================================================\nExternal Baseline Runner - Stage 5B\n============================================================\nmethod: freecsl\ndataset: BDGP\nmissing pattern: MCAR\nmissing rate: 50\nmissing rate fraction: 0.5\nseed: 0\nexporting data...\n",
+  "stderr_tail": "Traceback (most recent call last):\n  File \"D:\\github_file\\LLM-GIMVC\\LLM-GIMVC\\run_external_baseline.py\", line 104, in <module>\n    main()\n  File \"D:\\github_file\\LLM-GIMVC\\LLM-GIMVC\\run_external_baseline.py\", line 60, in main\n    result = run_external_baseline_job(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\github_file\\LLM-GIMVC\\LLM-GIMVC\\llm_gimvc\\baselines\\runner.py\", line 243, in run_external_baseline_job\n    raise RuntimeError(\nRuntimeError: External baseline freecsl failed with returncode 1. See results/block1/BDGP/MCAR/missing_50/freecsl/seed_0/failed_command_log.json.\n",
+  "ok": false
+}

@@ -1,0 +1,31 @@
+{
+  "stage": "stage5a_block1_aggregation",
+  "results_dir": "results/block1",
+  "output_dir": "results/block1_summary",
+  "datasets": [
+    "BDGP"
+  ],
+  "missing_rates": [
+    50
+  ],
+  "methods": [
+    "llm_gimvc",
+    "statistical_only",
+    "mica",
+    "jga_imvc",
+    "freecsl"
+  ],
+  "seeds": [
+    0
+  ],
+  "num_expected_runs": 5,
+  "num_found_runs": 5,
+  "num_missing_runs": 0,
+  "missing_runs": [],
+  "outputs": {
+    "all_runs_csv": "results/block1_summary/block1_all_runs.csv",
+    "mean_std_csv": "results/block1_summary/block1_mean_std.csv",
+    "delta_csv": "results/block1_summary/block1_delta_vs_statistical.csv",
+    "summary_json": "results/block1_summary/block1_summary.json"
+  }
+}
